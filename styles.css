@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-container {
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.div-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
+.div-child {
+  flex: 1;
+}
